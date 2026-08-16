@@ -25,6 +25,10 @@ A clean, project-first portfolio website positioning Chaitanya Pawaskar as a mul
 ## Implemented
 - 2026-08-11: Initial build — all 6 pages, design system (Sora/IBM Plex Sans, off-white #F9F9F8, burnt orange #D95A3B), contact API + Resend integration, resume PDF, placeholder stock imagery.
 - 2026-08-16: Replaced all placeholder content/imagery with real data from Chaitanya's 62-page PDF (37 images extracted and optimized). Corrected facts: Dual-Zone Streetlight = graduation project 2025–26 with PIR+LDR/IoT/tool-free service; added 7th project "Tool-less Modular Outdoor Luminaire" (real Wipro 6-month internship); MonoHaul all-terrain electric stretcher (48V BLDC, 30° inclines); OsteoMove mobility aid (metal-fabricated prototype); ZP Schools 2023 (CLDs, iceberg model, Kumu; vegetable cultivation/craft interventions); Timber = hybrid turning-carving workstation. Case-study template now renders mechanism + prototype images. About/Resume/PDF updated to match.
+- 2026-08-16: Real contact details live — email chaitanyapawaskar27@gmail.com (site + OWNER_EMAIL; verified email_sent:true), LinkedIn linkedin.com/in/chaitanya-pawaskar-797bab272. Resume download now serves the user-uploaded PDF (ghostscript /ebook compressed 67MB → 2.9MB). About role corrected to "Product Design Intern".
+
+## Open Items
+- User flagged one case-study image as belonging in "Ideation & exploration" but did not specify which page/image — awaiting clarification.
 
 ## Prioritized Backlog
 - P0: Replace placeholder contact email/LinkedIn with Chaitanya's real ones (currently chaitanyapawaskar.design@gmail.com — email notifications to OWNER_EMAIL fail until a real deliverable address is set in backend/.env)

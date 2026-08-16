@@ -63,7 +63,7 @@ const Contact = () => {
                 data-testid="contact-linkedin-link"
                 className="group mt-1 inline-flex items-center gap-1.5 text-sm font-medium text-ink transition-colors duration-200 hover:text-ember focus:outline-none focus:ring-2 focus:ring-ember"
               >
-                linkedin.com/in/chaitanya-pawaskar
+                linkedin.com/in/chaitanya-pawaskar-797bab272
                 <ArrowUpRight size={14} className="transition-transform duration-200 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
               </a>
             </div>

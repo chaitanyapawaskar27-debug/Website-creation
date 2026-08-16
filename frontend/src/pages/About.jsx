@@ -10,7 +10,7 @@ const education = [
 
 const experience = [
   {
-    role: "Industrial Design Intern",
+    role: "Product Design Intern",
     org: "Wipro Consumer Lighting",
     detail:
       "Six-month industrial design internship: designed a tool-less modular outdoor luminaire system — three tool-less mechanism directions, five appearance prototypes, and a 1:1 prototype validating scale and handling.",
