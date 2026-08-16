@@ -68,6 +68,29 @@ const Contact = () => {
               </a>
             </div>
             <div>
+              <p className="text-xs uppercase tracking-widest text-inkmuted">Phone</p>
+              <a
+                href={`tel:${SITE.phone.replace(/\s/g, "")}`}
+                data-testid="contact-phone-link"
+                className="mt-1 inline-block text-sm font-medium text-ink transition-colors duration-200 hover:text-ember focus:outline-none focus:ring-2 focus:ring-ember"
+              >
+                {SITE.phone}
+              </a>
+            </div>
+            <div>
+              <p className="text-xs uppercase tracking-widest text-inkmuted">Behance</p>
+              <a
+                href={SITE.behance}
+                target="_blank"
+                rel="noopener noreferrer"
+                data-testid="contact-behance-link"
+                className="group mt-1 inline-flex items-center gap-1.5 text-sm font-medium text-ink transition-colors duration-200 hover:text-ember focus:outline-none focus:ring-2 focus:ring-ember"
+              >
+                behance.net/chaitanpawaska
+                <ArrowUpRight size={14} className="transition-transform duration-200 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
+              </a>
+            </div>
+            <div>
               <p className="text-xs uppercase tracking-widest text-inkmuted">Resume</p>
               <a
                 href={SITE.resumeUrl}

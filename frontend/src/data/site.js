@@ -3,6 +3,8 @@ export const SITE = {
   role: "Multidisciplinary Product & Industrial Designer",
   email: "chaitanyapawaskar27@gmail.com",
   linkedin: "https://www.linkedin.com/in/chaitanya-pawaskar-797bab272",
+  phone: "+91 9326448051",
+  behance: "https://www.behance.net/chaitanpawaska",
   resumeUrl: `${process.env.REACT_APP_BACKEND_URL}/api/resume`,
 };
 
