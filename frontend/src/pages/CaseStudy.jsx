@@ -74,7 +74,7 @@ const CaseStudy = () => {
           </dl>
         </FadeIn>
         <FadeIn delay={0.15}>
-          <Figure src={project.image} alt={project.imageAlt} caption={project.context} />
+          <Figure src={project.image} alt={project.imageAlt} caption={project.heroCaption || project.context} />
         </FadeIn>
       </div>
 

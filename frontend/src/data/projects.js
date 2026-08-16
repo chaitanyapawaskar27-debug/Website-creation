@@ -390,13 +390,14 @@ export const projects = [
       "Three tool-less mechanism directions, five appearance prototypes, and a 1:1 prototype validating physical scale and handling.",
     tools: ["Fusion 360", "CAD Modelling", "KeyShot", "Sketching"],
     meta: ["Modular architecture", "Tool-less mechanisms", "Serviceability"],
-    image: `${A}/tool-less-modular-luminaire-hero.jpg`,
-    imageAlt: "Tool-less modular luminaire — 3D-printed lighting module prototype",
+    image: `${A}/tool-less-modular-luminaire-development.jpg`,
+    imageAlt: "Quick-maintenance modular lighting module render for outdoor luminaire applications",
+    heroCaption: "Quick-maintenance modular lighting module developed for outdoor luminaire applications.",
     caseStudy: {
       outcome:
         "A modular outdoor luminaire system with replaceable lighting modules and multiple tool-less access concepts, creating a foundation for repairable and upgradeable outdoor lighting.",
       type: "Industrial Design · Outdoor Lighting · Modular Product Design",
-      role: "Industrial Design Intern",
+      role: "Product Design Intern",
       timeline: "6-month industry internship · 2025",
       team: "Industry mentors: Sachin Kumar Garg & Akash Singh · University mentor: Dr. Arunachalam",
       problemBody: [

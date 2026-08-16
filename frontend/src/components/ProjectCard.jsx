@@ -23,7 +23,7 @@ const ProjectCard = ({ project, index = 0, large = false }) => {
             src={project.image}
             alt={project.imageAlt}
             loading="lazy"
-            className={`w-full object-cover transition-transform duration-500 ease-out group-hover:scale-[1.03] ${
+            className={`w-full object-cover transition-[transform,filter] duration-500 ease-out group-hover:scale-[1.03] group-hover:blur-[3px] ${
               large ? "aspect-[4/3]" : "aspect-[4/3]"
             }`}
           />
