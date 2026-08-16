@@ -1,0 +1,115 @@
+{
+  "theme": "Light theme, high-contrast. Warm human details via restrained off-white backgrounds and a neutral base with ONE restrained accent color.",
+  "typography": {
+    "headings": {
+      "fontFamily": "Sora, sans-serif",
+      "weights": ["400", "600", "700"],
+      "usage": "Display and Headings (H1-H4). High impact, clean, technical."
+    },
+    "body": {
+      "fontFamily": "IBM Plex Sans, sans-serif",
+      "weights": ["400", "500"],
+      "usage": "Paragraphs, lists, UI text. Highly readable, pairs well with industrial design themes."
+    }
+  },
+  "colors": {
+    "background": {
+      "primary": "#F9F9F8",
+      "secondary": "#F0F0EE",
+      "tertiary": "#FFFFFF"
+    },
+    "text": {
+      "primary": "#1A1A1A",
+      "secondary": "#5C5C5C",
+      "muted": "#8A8A8A"
+    },
+    "accent": {
+      "primary": "#D95A3B",
+      "hover": "#BC4A2F",
+      "description": "Burnt Orange - used sparingly for buttons, active states, text links, and hover reveals."
+    },
+    "borders": {
+      "default": "#E5E5E3",
+      "dark": "#CCCCCC"
+    }
+  },
+  "spacing_and_layout": {
+    "system": "8px Tailwind spacing scale (p-2, p-4, p-6, p-8, p-12, p-16, p-24, p-32)",
+    "section_spacing": "py-24 md:py-32 lg:py-36 (96-144px desktop spacing)",
+    "container": "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 (Max width 1280-1440px)",
+    "grid": "12-column grid system (grid-cols-1 md:grid-cols-12 gap-6 md:gap-8)",
+    "featured_cards": "Alternate 7/5 ratio: md:col-span-7 for Image, md:col-span-5 for Content. Swap order on every other row.",
+    "case_study": "Reading content restricted to 8 columns (e.g., md:col-start-3 md:col-span-8). Visuals span 10 or 12 columns."
+  },
+  "visual_enhancers": {
+    "shadows": "Minimalist approach. Flat with 1px borders. No large diffuse drop shadows. Focus on structure.",
+    "borders": "1px solid #E5E5E3 for structural separation.",
+    "hover_states": "Subtle reveals (e.g., text links show a right arrow, images slightly scale up inside overflow-hidden wrappers).",
+    "focus_states": "Visible focus states using the accent color (focus:ring-2 focus:ring-[#D95A3B] focus:outline-none)."
+  },
+  "components": {
+    "header": "Sticky desktop header with compact mobile menu (hamburger). bg-[#F9F9F8]/90 with backdrop-blur-md. Clean nav links.",
+    "hero": "Left-aligned. Eyebrow text, large H1, CTAs, and a strong right-aligned or bottom-anchored project visual.",
+    "credibility_strip": "Horizontal row of stats or client/award logos. Subtle grayscale.",
+    "project_card": "Image-first. No decorative card backgrounds. Image, title, tags, description, 'Read Case Study ->' link.",
+    "additional_work_list": "List/table format with clear typography. Columns: Year, Title, Role.",
+    "process_preview": "5-step sequential layout showing methodology.",
+    "case_study_template": "10 sections: Problem -> Research -> Direction -> Ideation -> Mechanisms/Diagrams -> Prototyping -> Final Solution -> Outcomes -> Reflection.",
+    "buttons": "Square or slightly rounded (rounded-sm). Primary: bg-[#D95A3B] text-white. Secondary: transparent with 1px border."
+  },
+  "motion": {
+    "transitions": "Restrained. Use 'transition-colors duration-200' or 'transition-transform duration-300 ease-out'.",
+    "entrance": "Framer Motion for gentle fade-up on scroll (y: 20 to y: 0, opacity 0 to 1). Do not over-animate."
+  },
+  "accessibility": {
+    "contrast": "Strict APCA/WCAG AA compliance for text.",
+    "focus": "Clear focus rings.",
+    "data_testid": "All interactive elements MUST have a data-testid attribute."
+  },
+  "image_urls": {
+    "universal_travel_adapter": {
+      "url": "https://images.pexels.com/photos/3921698/pexels-photo-3921698.jpeg",
+      "description": "Black travel adapter on white marble."
+    },
+    "dual_zone_streetlight": {
+      "url": "https://images.pexels.com/photos/19203216/pexels-photo-19203216.jpeg",
+      "description": "Modern LED streetlight on a concrete pole against blue sky."
+    },
+    "hybrid_medical_vehicle": {
+      "url": "https://images.pexels.com/photos/28123708/pexels-photo-28123708.jpeg",
+      "description": "Bright yellow modern ambulance parked outdoors."
+    },
+    "ideation_sketches": {
+      "url": "https://images.pexels.com/photos/7257156/pexels-photo-7257156.jpeg",
+      "description": "Detailed technical drawings on neatly arranged white paper sheets."
+    },
+    "designer_sketching": {
+      "url": "https://images.pexels.com/photos/7257234/pexels-photo-7257234.jpeg",
+      "description": "Close up of hands sketching designs."
+    },
+    "prototyping_work": {
+      "url": "https://images.pexels.com/photos/36731158/pexels-photo-36731158.jpeg",
+      "description": "Designer at desk working on physical layouts."
+    }
+  },
+  "instructions_to_main_agent": [
+    "Create pages: Home, Work (Index), Case Studies (3+), About, Resume, Contact.",
+    "Implement the 12-column grid and alternate 7/5 column ratios for featured projects on the homepage.",
+    "Ensure the case study template strictly follows the 10 specified sections and the 8-column reading width constraint.",
+    "Implement a contact form using Shadcn UI inputs on the Contact page, and integrate Sonner for success toasts.",
+    "Use Phosphor Icons or Lucide React for clean, minimalist iconography.",
+    "Keep backgrounds restrained to #F9F9F8 and #F0F0EE. Let the product imagery bring richness.",
+    "Do not use unnecessary border radii on major layout blocks. Keep the industrial, technical feel.",
+    "Install and configure Sora and IBM Plex Sans fonts via Google Fonts or standard imports."
+  ],
+  "UNIVERSAL_GUIDELINES_FOR_MAIN_AGENT": [
+    "Do not make generic centered layouts, simplistic gradients, and uniform styling.",
+    "Create depth through layered design elements with z-index hierarchy, but keep styling flat and industrial.",
+    "You MUST NOT apply universal transition (e.g., transition: all). Add transitions for specific interactive elements.",
+    "You MUST NOT center align the app container. Do not add `.App { text-align: center; }`.",
+    "Always use modern button styles (sharp or lightly rounded) with interaction animations & color relevant to the app style.",
+    "NEVER use AI assistant Emoji characters like 🤖🧠💭💡🔮🎯 for icons.",
+    "Every interaction needs micro-animations - hover states, transitions, and entrance animations. Static = dead.",
+    "Include data-testid attributes on all interactive elements (kebab-case, role-based)."
+  ]
+}
