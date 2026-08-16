@@ -30,6 +30,7 @@ A clean, project-first portfolio website positioning Chaitanya Pawaskar as a mul
 ## Open Items
 - None. (Resolved 2026-08-16: luminaire appearance-development render moved from Final solution into Ideation & exploration; Final solution now shows the 1:1 consolidated prototype. Added Carlos Philip Watches case study — 8th project, consultancy framing, verified metrics only: 12 form concepts, production-ready assets across 3 product lines; watch imagery is stock placeholder pending real renders.)
 - 2026-08-16: Resume download now serves Chaitanya's real 2-page resume PDF (uploaded artifact). Project card images blur on hover. Tool-less luminaire main image changed to the render with caption "Quick-maintenance modular lighting module developed for outdoor luminaire applications." Wipro role shown as "Product Design Intern" site-wide.
+- 2026-08-16: Adapter card image replaced with user-attached dark render (cardImage field; case study keeps trio hero). Carlos Philip Watches case study REMOVED from Work per user request (Carlos Philip remains listed as experience on About/Resume).
 
 ## Prioritized Backlog
 - P0: Replace placeholder contact email/LinkedIn with Chaitanya's real ones (currently chaitanyapawaskar.design@gmail.com — email notifications to OWNER_EMAIL fail until a real deliverable address is set in backend/.env)
