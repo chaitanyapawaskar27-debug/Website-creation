@@ -20,7 +20,7 @@ const ProjectCard = ({ project, index = 0, large = false }) => {
           }`}
         >
           <img
-            src={project.image}
+            src={project.cardImage || project.image}
             alt={project.imageAlt}
             loading="lazy"
             className={`w-full object-cover transition-[transform,filter] duration-500 ease-out group-hover:scale-[1.03] group-hover:blur-[3px] ${

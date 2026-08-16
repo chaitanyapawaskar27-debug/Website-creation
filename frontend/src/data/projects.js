@@ -18,6 +18,7 @@ export const projects = [
     tools: ["Fusion 360", "SolidWorks", "KeyShot", "Rapid prototyping"],
     meta: ["Product architecture", "Mechanism design", "Component optimization"],
     image: `${A}/universal-travel-adapter-hero.jpg`,
+    cardImage: `${A}/universal-travel-adapter-card.jpg`,
     imageAlt: "Universal Travel Adapter — final concept renders of the compact black adapter body",
     caseStudy: {
       outcome:
