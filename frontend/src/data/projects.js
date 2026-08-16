@@ -437,9 +437,6 @@ export const projects = [
         image: `${A}/tool-less-modular-luminaire-ideation.jpg`,
         imageAlt: "Form exploration studies for the modular luminaire housing",
         caption: "Housing exploration during ideation.",
-        image2: `${A}/tool-less-modular-luminaire-development.jpg`,
-        image2Alt: "Appearance development render of the modular lighting module",
-        caption2: "Appearance development — connecting mechanism studies with physical form.",
       },
       mechanisms: {
         body: "The luminaire was developed as a layered system containing housing, gasket, driver, heat sink, PCB, reflector, glass, and associated mechanical interfaces. Different access mechanisms translated simple manual actions into module removal.",

@@ -47,6 +47,23 @@ const Footer = () => (
             LinkedIn
             <ArrowUpRight size={14} className="transition-transform duration-200 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
           </a>
+          <a
+            href={`tel:${SITE.phone.replace(/\s/g, "")}`}
+            data-testid="footer-phone-link"
+            className="w-fit text-sm text-inksoft transition-colors duration-200 hover:text-ink focus:outline-none focus:ring-2 focus:ring-ember"
+          >
+            {SITE.phone}
+          </a>
+          <a
+            href={SITE.behance}
+            target="_blank"
+            rel="noopener noreferrer"
+            data-testid="footer-behance-link"
+            className="group inline-flex w-fit items-center gap-1 text-sm text-inksoft transition-colors duration-200 hover:text-ink focus:outline-none focus:ring-2 focus:ring-ember"
+          >
+            Behance
+            <ArrowUpRight size={14} className="transition-transform duration-200 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
+          </a>
         </div>
       </div>
     </div>

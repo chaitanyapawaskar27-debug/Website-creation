@@ -204,24 +204,24 @@ const CaseStudy = () => {
         <Link
           to={`/work/${prev.slug}`}
           data-testid="prev-project-link"
-          className="group bg-paper p-8 transition-colors duration-200 hover:bg-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-ember"
+          className="group bg-paper p-8 transition-colors duration-200 hover:bg-ember/10 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-ember"
         >
-          <span className="inline-flex items-center gap-2 text-xs uppercase tracking-widest text-inkmuted">
+          <span className="inline-flex items-center gap-2 text-xs uppercase tracking-widest text-inkmuted transition-colors duration-200 group-hover:text-ember">
             <ArrowLeft size={14} className="transition-transform duration-200 group-hover:-translate-x-1" />
             Previous project
           </span>
-          <p className="mt-3 font-display text-xl font-semibold text-ink">{prev.title}</p>
+          <p className="mt-3 font-display text-xl font-semibold text-ink transition-colors duration-200 group-hover:text-ember">{prev.title}</p>
         </Link>
         <Link
           to={`/work/${next.slug}`}
           data-testid="next-project-link"
-          className="group bg-paper p-8 text-right transition-colors duration-200 hover:bg-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-ember"
+          className="group bg-paper p-8 text-right transition-colors duration-200 hover:bg-ember/10 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-ember"
         >
-          <span className="inline-flex items-center gap-2 text-xs uppercase tracking-widest text-inkmuted">
+          <span className="inline-flex items-center gap-2 text-xs uppercase tracking-widest text-inkmuted transition-colors duration-200 group-hover:text-ember">
             Next project
             <ArrowRight size={14} className="transition-transform duration-200 group-hover:translate-x-1" />
           </span>
-          <p className="mt-3 font-display text-xl font-semibold text-ink">{next.title}</p>
+          <p className="mt-3 font-display text-xl font-semibold text-ink transition-colors duration-200 group-hover:text-ember">{next.title}</p>
         </Link>
       </nav>
       <div className="pb-20" />
