@@ -28,7 +28,7 @@ A clean, project-first portfolio website positioning Chaitanya Pawaskar as a mul
 - 2026-08-16: Real contact details live — email chaitanyapawaskar27@gmail.com (site + OWNER_EMAIL; verified email_sent:true), LinkedIn linkedin.com/in/chaitanya-pawaskar-797bab272. Resume download now serves the user-uploaded PDF (ghostscript /ebook compressed 67MB → 2.9MB). About role corrected to "Product Design Intern".
 
 ## Open Items
-- User flagged one case-study image as belonging in "Ideation & exploration" but did not specify which page/image — awaiting clarification.
+- None. (Resolved 2026-08-16: luminaire appearance-development render moved from Final solution into Ideation & exploration; Final solution now shows the 1:1 consolidated prototype. Added Carlos Philip Watches case study — 8th project, consultancy framing, verified metrics only: 12 form concepts, production-ready assets across 3 product lines; watch imagery is stock placeholder pending real renders.)
 
 ## Prioritized Backlog
 - P0: Replace placeholder contact email/LinkedIn with Chaitanya's real ones (currently chaitanyapawaskar.design@gmail.com — email notifications to OWNER_EMAIL fail until a real deliverable address is set in backend/.env)

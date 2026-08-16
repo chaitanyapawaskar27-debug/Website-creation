@@ -118,6 +118,9 @@ const CaseStudy = () => {
           ))}
         </ul>
         <Figure src={cs.ideation.image} alt={cs.ideation.imageAlt} caption={cs.ideation.caption} />
+        {cs.ideation.image2 && (
+          <Figure src={cs.ideation.image2} alt={cs.ideation.image2Alt} caption={cs.ideation.caption2} />
+        )}
       </Section>
 
       <Section number="06" title="Mechanisms & system diagrams" testid="cs-mechanisms">
